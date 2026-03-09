@@ -21,7 +21,7 @@ from telegram.ext import ApplicationBuilder, ContextTypes, MessageHandler, filte
 TOKEN = "8648013365:AAFP-Ea_BbnBPTpe0L6-C08VsPvQHw6AYnI"
 SOURCE_CHANNEL_ID = -1003722624508
 DEST_CHANNEL_ID = -1003824270566
-USERNAME_TO_ADD = "Owner: @CEO_cryfex"
+USERNAME_TO_ADD = "Owner: @SHOPNO_XDN"
 
 async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE):
     if not update.channel_post:
@@ -86,7 +86,7 @@ async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE):
             f"✅ 𝗪𝗜𝗡 ➤ {market}\n\n"
             f"⏰ Entry Time ➤ {time}\n\n"
             "📈 Perfect Signal • Clean Profit 🔥\n\n"
-            "👑 Join Vip up to 99% signel profit➜ @CEO_cryfex\n"
+            "👑 Join Vip up to 99% signel profit➜ @SHOPNO_XDN\n"
             "╚═━════════✦═══════━═╝"
         )
     elif is_loss:
@@ -122,14 +122,14 @@ async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE):
             "📊 ╭─〔 𝗧𝗥𝗔𝗗𝗘 𝗗𝗜𝗥𝗘𝗖𝗧𝗜𝗢𝗡 〕─╮\n"
             f"       ➤ {dir_label}\n"
             "       ╰••┈┈┈┈┈✦✧✦┈┈┈┈┈••✦\n\n"
-            "👑 Join Vip group ➜ @CEO_cryfex   \n"
+            "👑 Join Vip group ➜ @SHOPNO_XDN   \n"
             "╚═━═══════─═══════ ═━═╝"
         )
     else:
         # If it doesn't match the signal pattern, just append the owner info
         new_text = (
             f"{text}\n\n"
-            "👑 Join Vip group ➜ @CEO_cryfex  \n"
+            "👑 Join Vip group ➜ @@SHOPNO_XDN  \n"
             "╚═━════════─════════━═╝"
         )
 
